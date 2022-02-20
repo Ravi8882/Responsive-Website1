@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Education For Free - Transforming Education</title>
+</head>
+<body>
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
+            <div class="logo"><img src="bg2.png" alt="logo"></div>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact US</a></li>
+        </ul>
+        <div class="rightNav v-class-resp">
+            <input type="text" class="search" id="search">
+            <button class="btn btn-sm">Search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+    
+    <section class="background firstSection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <p class="text-big">The Future of Student.</p>
+                <p class="text-small">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit aut, molestiae, porro tenetur dicta repellendus incidunt aperiam amet eveniet illum molestias fugit in modi beatae a doloremque tempora nobis similique.</p>
+                <div class="buttons">
+                    <button class="btn">Subscribe</button>
+                    <button class="btn">Watch Here</button>
+                </div>
+            </div>
+            <div class="secondHalf">
+                <img src="bg2.png" height="100px" alt="Laptop Image">
+            </div>
+        </div>
+    </section>
+
+    <section class="rightSec">
+        <div class="paras">
+            <div class="paraTag">
+                <p class="text-big">Lorem ipsum dolor sit amet</p>
+                <p class="text-small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde tempora voluptas laboriosam ex nesciunt dignissimos, laudantium dolores cupiditate quis esse sequi eaque quia eos sapiente dolorum error modi itaque illo fuga magnam. Fugit et id quaerat molestias dignissimos eum fuga voluptatem inventore magni, laboriosam dolor dicta iure ducimus esse deleniti distinctio, culpa non atque tenetur beatae sapiente magnam natus omnis odio. Quis ullam modi labore architecto sapiente vitae incidunt exercitationem impedit enim esse necessitatibus reprehenderit quidem rem dolorum, quo, tempora accusamus molestiae fugiat cumque nemo quam quas voluptatem</p>
+            </div>
+            <div class="parasImg">
+                <img src="https://source.unsplash.com/random/1920x1080/?happy,apple"  alt="Laptop Image">
+            </div>
+        </div>
+        <div class="paras paras-left">
+            <div class="paraTag">
+                <p class="text-big">Lorem ipsum dolor sit amet</p>
+                <p class="text-small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde tempora voluptas laboriosam ex nesciunt dignissimos, laudantium dolores cupiditate quis esse sequi eaque quia eos sapiente dolorum error modi itaque illo fuga magnam. Fugit et id quaerat molestias dignissimos eum fuga voluptatem inventore magni, laboriosam dolor dicta iure ducimus esse deleniti distinctio, culpa non atque tenetur beatae sapiente magnam natus omnis odio. Quis ullam modi labore architecto sapiente vitae incidunt exercitationem impedit enim esse necessitatibus reprehenderit quidem rem dolorum, quo, tempora accusamus molestiae fugiat cumque nemo quam quas voluptatem</p>
+            </div>
+            <div class="parasImg">
+                <img src="https://source.unsplash.com/random/1920x1080/?coding,apple"  alt="Laptop Image">
+            </div>
+        </div>
+
+        <div class="paras paras-right">
+            <div class="paraTag">
+                <p class="text-big">Lorem ipsum dolor sit amet</p>
+                <p class="text-small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde tempora voluptas laboriosam ex nesciunt dignissimos, laudantium dolores cupiditate quis esse sequi eaque quia eos sapiente dolorum error modi itaque illo fuga magnam. Fugit et id quaerat molestias dignissimos eum fuga voluptatem inventore magni, laboriosam dolor dicta iure ducimus esse deleniti distinctio, culpa non atque tenetur beatae sapiente magnam natus omnis odio. Quis ullam modi labore architecto sapiente vitae incidunt exercitationem impedit enim esse necessitatibus reprehenderit quidem rem dolorum, quo, tempora accusamus molestiae fugiat cumque nemo quam quas voluptatem</p>
+            </div>
+            <div class="parasImg">
+                <img src="https://source.unsplash.com/random/1920x1080/?nature,lion"  alt="Laptop Image">
+            </div>
+        </div>
+        
+    </section>
+
+    <hr/>
+
+    <section class="contact">
+        <h1 class="text-center">Contact Us</h1>
+        <div class="form">
+            <input class="form-input" type="text" name="name" id="name" placeholder="Enter Your Name" />
+            <input class="form-input" type="text" name="phone" id="phone" placeholder="Enter Your Phone" />
+            <input  class="form-input" type="email" name="email" id="email" placeholder="Enter Your Email" />
+            <textarea  class="form-input" name="" id="" cols="30" rows="10" placeholder="Elaburate Your Concern"></textarea>
+            <button class="btn btn-dark">Submit</button>
+        </div>
+    </section>
+    <footer class="background">
+        <p class="text-center" style="color: white;">
+            Copyright &copy; 2022 - All rights reserved
+        </p>
+        
+    </footer>
+
+
+
+    <script>
+        burger = document.querySelector('.burger');
+        navbar = document.querySelector('.navbar');
+        rightNav = document.querySelector('.rightNav');
+        navList = document.querySelector('.nav-list');
+        burger.addEventListener('click', () => {
+            navList.classList.toggle('v-class-resp');
+            rightNav.classList.toggle('v-class-resp');
+            navbar.classList.toggle('h-nav-resp');
+        });
+    </script>
+</body>
+</html>
